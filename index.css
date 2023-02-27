@@ -34,7 +34,7 @@ body {
     margin-right: 40px;
 }
 
-.avatar:hover + .certificate {
+.avatar:hover + .certificate_desktop {
     display: block;
 }
 
@@ -139,22 +139,44 @@ a:active {
     padding-bottom: 5px;
 }
 
-.certificate {
+.certificate_mobile {
     position: fixed;
-    top: 50px;
-    right: 50px;
-    border: 3px solid #6d8769;
-    width: 40%;
+    top: 5px;
+    right: 5px;
+    border: 3px solid #f32167;
+    width: 80%;
     display: none;
 }
 
-li#programmer:hover .certificate {
+@media only screen and (min-width: 600px) {
+    .certificate_tablet {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        border: 3px solid #4125ce;
+        width: 60%;
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    .certificate_desktop {
+        position: fixed;
+        top: 50px;
+        right: 50px;
+        border: 3px solid #6d8769;
+        width: 40%;
+        display: none;
+    }
+}
+
+li#programmer:hover .certificate_desktop {
     display: block;
 }
-li#developer:hover .certificate {
+li#developer:hover .certificate_desktop {
     display: block;
 }
-li#adobe:hover .certificate {
+li#adobe:hover .certificate_desktop {
     display: block;
 }
 
