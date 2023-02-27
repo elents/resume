@@ -34,13 +34,17 @@ body {
     margin-right: 40px;
 }
 
-.avatar:hover + .certificate_desktop {
+/* .avatar:hover + .certificate_desktop {
+    display: block;
+} */
+
+.info_photo:hover .certificate_desktop {
     display: block;
 }
-.avatar:hover + .certificate_tablet {
+.info_photo:hover .certificate_tablet {
     display: block;
 }
-.avatar:hover + .certificate_mobile {
+.info_photo:hover .certificate_mobile {
     display: block;
 }
 
