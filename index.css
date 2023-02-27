@@ -37,6 +37,12 @@ body {
 .avatar:hover + .certificate_desktop {
     display: block;
 }
+.avatar:hover + .certificate_tablet {
+    display: block;
+}
+.avatar:hover + .certificate_mobile {
+    display: block;
+}
 
 .info_text {
     padding-left: 20px;
@@ -170,13 +176,31 @@ a:active {
     }
 }
 
-li#programmer:hover .certificate_desktop {
+li#programmer:hover .certificate_desktop  {
     display: block;
 }
-li#developer:hover .certificate_desktop {
+li#programmer:hover .certificate_tablet  {
+    display: block;
+}
+li#programmer:hover .certificate_mobile  {
+    display: block;
+}
+li#developer:hover .certificate_desktop  {
+    display: block;
+}
+li#developer:hover .certificate_tablet  {
+    display: block;
+}
+li#developer:hover .certificate_mobile  {
     display: block;
 }
 li#adobe:hover .certificate_desktop {
+    display: block;
+}
+li#adobe:hover .certificate_tablet {
+    display: block;
+}
+li#adobe:hover .certificate_mobile {
     display: block;
 }
 
